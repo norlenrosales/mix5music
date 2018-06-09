@@ -1,0 +1,40 @@
+body{
+	background: #fff;
+}
+h1{
+	text-align: center;
+	margin-top: 50px;
+	color: #555;
+}
+h2{
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	color: #B9CF16;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+center{
+	margin-top: 50px;
+}
+
+
+iframe{
+	border: none;
+}
+
+
+a{
+	color: #000;
+	text-align: center;
+	margin: auto;
+	background: #E4D41F;
+	padding: 10px 45px;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+a:hover, a:focus{text-decoration: none; color: #000; background: #ff0}

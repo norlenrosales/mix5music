@@ -1,0 +1,26 @@
+<!DOCTYPE html>    
+<html>
+ <head>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap-3.3.4.css" rel="stylesheet" type="text/css">
+
+   <!-- La linea de arriba es para importar estilos CSS a nuestro formulario -->
+  <title>Formulario de contacto</title>
+ </head>
+ <body>
+  <section class="formulario">
+    
+    <form action="contact.php" method="post">
+	<!-- <label for="nombre">Nombre:</label> -->
+	 <input id="nombre" type="text" name="nombre" placeholder="Name" required="" />
+	 <!-- <label for="email">Email:</label> -->
+	 <input id="email" type="email" name="email" placeholder="E-mail" required="" />
+	 <!-- <label for="mensaje">Mensaje:</label> -->
+	 <textarea id="mensaje" name="mensaje" placeholder="Message" required=""></textarea>
+	 <!-- <input id="submit" type="submit" name="submit" value="Enviar" /> -->
+	 <button id="submit" type="submit" name="submit" value="SEND" class="btn btn-success">SEND</button>
+	</form>
+
+  </section>
+ </body>
+</html>
